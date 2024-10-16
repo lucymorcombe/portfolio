@@ -498,7 +498,11 @@ margin-bottom: 0px;
   }
 
   .logo {
-    width: 15vw;
+    width: 10vw;
+  }
+
+  .rightNav {
+    width: 45vw;
   }
 
   button {
