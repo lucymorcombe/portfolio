@@ -519,6 +519,10 @@ margin-bottom: 0px;
     bottom: -10px
   }
 
+  .infoBanner {
+    width: 70%;
+  }
+
   .infoBanner h4 {
     font-size: 0.9em;
     margin-bottom: 5px;
