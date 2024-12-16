@@ -3,6 +3,7 @@ import astroflop from "../assets/astroflop.jpg"
 import inverttees from "../assets/inverttees.jpg"
 import whatsupzeus from "../assets/whatsupzeus.jpg"
 import pinned from "../assets/pinIcon.svg"
+import nightline from "../assets/nightline.png"
 
 function ProjectPosts() {
     return (
@@ -16,6 +17,17 @@ function ProjectPosts() {
                 <img src={pinned} />
                 <p>Pinned Post</p>
             </div>
+            <TweetCard
+                content={<div className="nightline">
+                            <p>In December 2024 I finished working on a project as a Volunteer Web Designer at GrassRootsWeb, creating a website for the charity London Nightline using Webflow. I worked as part of a team of two and took the lead on the project due to my previous experience. The website is fully responsive, with clean, modern visuals and cohesive branding that reflect the charity’s values. I worked closely with the client to understand their goals and translate them into a professional and effective online platform. They had an existing website, and I took inspiration from this and their branding document to improve and modernise their design. To see their previous site and the improvements I made <a href="https://drive.google.com/drive/folders/10X5Ymfb7SEaSYcgRivkHNTn3gU2Anclj?usp=sharing">#clickhere</a></p>
+                        </div>}
+                contentImage={nightline}
+                imageLink="https://www.nightline.org.uk"
+                replies="3"
+                reposts="1"
+                favourites="16"
+
+            />
             <TweetCard 
                 content={<div className="astroflop">
                             <p>For my most recent university project, I built an interactive website using ReactJS, featuring:</p>

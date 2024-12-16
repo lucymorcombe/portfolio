@@ -26,7 +26,7 @@ function Posts() {
             />
             <TweetCard 
                 content={<p className="tweetContent">
-                    During my time at university, I've created websites from conception to completion. I've also redesigned sites for small businesses in my hometown to build my experience and I am currently working on a website for a London charity through my volunteer work with GrassRootsWeb.
+                    During my time at university, I've created websites from conception to completion. I've also created a website for the charity London Nightline through my volunteer work with GrassRootsWeb and I've redesigned sites for small businesses in my hometown to build my experience.
                     <Link to="/projects">
                     #gotoprojects
                     </Link>
@@ -44,7 +44,7 @@ function Posts() {
             />
             <TweetCard 
                 content={<p className="tweetContent">
-                    I'm looking for full time work in Web Development for when I graduate in August. My first year grades are distinction level, and I plan to continue this in my second year. I'd love to hear from you!
+                    I'm looking for full time work in Web Development and Software Engineering for when I graduate in August. My first year grades are distinction level, and I plan to continue this in my second year. I'd love to hear from you!
                     <Link to="/contact">
                     #contactme
                     </Link>

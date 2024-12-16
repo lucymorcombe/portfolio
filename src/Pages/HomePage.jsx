@@ -8,7 +8,6 @@ function HomePage() {
              <div className='imageContainer'>
                 <Header 
                     headerTitle="WEB DEVELOPMENT PORTFOLIO"
-
                 />
                 <ProfileIcon />
             </div>

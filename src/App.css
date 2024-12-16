@@ -294,6 +294,10 @@ p.accent {
   border-bottom: 1.5px solid #ecf1f5;
 }
 
+.tweetCard a {
+  color: #33a0ff;
+}
+
 .tweetInfo {
   display: flex;
   align-items: flex-start;
