@@ -4,6 +4,7 @@ import inverttees from "../assets/inverttees.jpg"
 import whatsupzeus from "../assets/whatsupzeus.jpg"
 import pinned from "../assets/pinIcon.svg"
 import nightline from "../assets/nightline.png"
+import roomie from "../assets/roomie.png"
 
 function ProjectPosts() {
     return (
@@ -17,6 +18,37 @@ function ProjectPosts() {
                 <img src={pinned} />
                 <p>Pinned Post</p>
             </div>
+            <TweetCard
+                content={<div className="roomie">
+                    <p>Roomie, my MSc Project, is a room/flatmate finding platform intended to match users based on personality. Think Tinder or Hinge merged with SpareRoom! <br/><br/>It has a swipe-based interface where you like users that you would be interested in speaking to, and dislike those who you wouldn’t be. Users are then matched if they both like each other and can start a conversation – completely eradicating the masses of messages you can receive in the process of looking for a room or a flatmate. <br/><br/>As well as this, Roomie features a compatibility algorithm to ensure users are shown their best matches first. It has come a long way and endured several redesigns, but I’m really proud of it. <br/><br/>I unfortunately can’t host the full site due to the complex backend and database system, but <a href="https://drive.google.com/drive/folders/1xxGLap4FvKkRkGrytjwxewKLp1jeU4Na?usp=sharing">#ClickHere</a> to see some screenshots or <a href="https://github.com/lucymorcombe/roomie">#ClickHere</a> to view the GitHub repository. <br/><br/>I received a distinction grade for this project.</p>
+                        </div>}
+                contentImage={roomie}
+                imageLink="https://drive.google.com/drive/folders/1xxGLap4FvKkRkGrytjwxewKLp1jeU4Na?usp=sharing"
+                replies="9"
+                reposts="4"
+                favourites="22"
+
+            />
+            <TweetCard
+                content={<div className="nightline">
+                            <p>Almost a year after creating their website as a volunteer at GrassRootsWeb, London Nightline reached out to me directly to ask me to do some more work on their site for them. As the new hub for all Nightline’s in the UK, their site needed restructuring and a small redesign on some pages. </p>
+                        </div>}
+                contentImage={nightline}
+                imageLink="https://www.nightline.org.uk"
+                replies="4"
+                reposts="2"
+                favourites="11"
+
+            />
+            <TweetCard
+                content={<div className="capsule">
+                            <p>During my Masters, I completed a piece of group work for one of my modules. This piece of work produced the most challenges for me as my teammates and I had different ideas of the effort this project required. The brief was to create a CRUD application and focussed mainly on front and backend integration, backend being something I haven’t used before. It was really great experience but further solidified my passion for the front end!<br/><br/>The site isn't hosted for me to share, but you can view my contributions on <a href="https://github.com/lucymorcombe/capsule/">#GitHub</a> </p>
+                        </div>}
+                replies="1"
+                reposts="1"
+                favourites="3"
+
+            />
             <TweetCard
                 content={<div className="nightline">
                             <p>In December 2024 I finished working on a project as a Volunteer Web Designer at GrassRootsWeb, creating a website for the charity London Nightline using Webflow. I worked as part of a team of two and took the lead on the project due to my previous experience. <br/><br/>The website is fully responsive, with clean, modern visuals and cohesive branding that reflect the charity’s values. I worked closely with the client to understand their goals and translate them into a professional and effective online platform. <br/><br/>They had an existing website, and I took inspiration from this and their branding document to improve and modernise their design. To see their previous site and the improvements I made <a href="https://drive.google.com/drive/folders/10X5Ymfb7SEaSYcgRivkHNTn3gU2Anclj?usp=sharing">#clickhere</a></p>

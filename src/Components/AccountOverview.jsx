@@ -5,7 +5,7 @@ function AccountOverview() {
         <div className="accountOverview">
             <div className="displayName"><h3>Lucy Morcombe</h3></div>
             <div className="username"><p>@morcombl</p></div>
-            <div className="bio"><p>Web Development MSc student at Roehampton University, graduating in August 2025. Looking for web development and software engineering roles after graduation.</p></div>
+            <div className="bio"><p>Recently graduated with a distinction from an MSc in Web Development at Roehampton University. Currently working in operations alongside small freelance web development projects. Looking for a role as a Graduate or Junior Front End Developer.</p></div>
             <div className="location"><img src={location}/><p>London</p></div>
         </div>
     )

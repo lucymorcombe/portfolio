@@ -21,9 +21,29 @@ function Skills() {
                 <p className="skillTitle">#ReactJS</p>
                 <p className="skillViews">183K Posts about this trend</p>
             </div>
+             <div className="skillEach">
+                <p className="skillTitle">#GitAndVersionControl</p>
+                <p className="skillViews">118K Posts about this trend</p>
+            </div>
+             <div className="skillEach">
+                <p className="skillTitle">#NodeJS</p>
+                <p className="skillViews">106K Posts about this trend</p>
+            </div>
+             <div className="skillEach">
+                <p className="skillTitle">#Express</p>
+                <p className="skillViews">72K Posts about this trend</p>
+            </div>
             <div className="skillEach">
                 <p className="skillTitle">#Python</p>
                 <p className="skillViews">106K Posts about this trend</p>
+            </div>
+             <div className="skillEach">
+                <p className="skillTitle">#MySQL</p>
+                <p className="skillViews">76.4K Posts about this trend</p>
+            </div>
+             <div className="skillEach">
+                <p className="skillTitle">#phpMyAdmin</p>
+                <p className="skillViews">32K Posts about this trend</p>
             </div>
             <div className="skillEach">
                 <p className="skillTitle">#jQuery</p>
@@ -32,6 +52,14 @@ function Skills() {
             <div className="skillEach">
                 <p className="skillTitle">#Figma</p>
                 <p className="skillViews">16.6K Posts about this trend</p>
+            </div>
+            <div className="skillEach">
+                <p className="skillTitle">#AdobeIllustrator</p>
+                <p className="skillViews"> 89.2K Posts about this trend</p>
+            </div>
+            <div className="skillEach">
+                <p className="skillTitle">#AffinityDesigner</p>
+                <p className="skillViews">102.2K Posts about this trend</p>
             </div>
             <div className="skillEach">
                 <p className="skillTitle">#ResponsiveWebDesign</p>
@@ -45,10 +73,8 @@ function Skills() {
                 <p className="skillTitle">#AccessibleDesign</p>
                 <p className="skillViews"> 51K Posts about this trend</p>
             </div>
-            <div className="skillEach">
-                <p className="skillTitle">#AdobeIllustrator</p>
-                <p className="skillViews"> 89.2K Posts about this trend</p>
-            </div>
+            
+            
         </div>
     )
 }
